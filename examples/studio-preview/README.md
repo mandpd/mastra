@@ -31,7 +31,7 @@ Create one Vercel project for the repository and point it at this example.
 
 - Root Directory: `examples/studio-preview`
 - Build Command: `pnpm build`
-- Install Command: use the default pnpm install detected by Vercel
+- Install Command: `pnpm install --frozen-lockfile --ignore-workspace`
 - Output Directory: leave empty
 - Node.js Version: 22.x
 - Root Directory setting: enable source files outside the root directory
